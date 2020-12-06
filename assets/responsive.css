@@ -1,0 +1,187 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .wrapper{
+         width: 90%;
+         margin:0px auto;
+    }
+    .logo-main{
+         float: none;
+    }
+    .main-phone-content{
+         float: none;
+     }
+    .main-phone-content {
+         margin: 0 auto;
+         width: 56%;
+    }
+    .menu span{
+         display: block;
+    }
+    .menu ul li{
+         list-style: none;
+         margin: 0 20px;
+         color: white;
+         font-size: 13px;
+         float: none;
+         padding: 8px;
+         border-bottom: 1px solid;
+    }
+    .menu ul{
+         padding: 0px;
+         display: none;
+    }
+    #banner-1:before{
+         top: 104%;
+         right: 38%;
+    }
+    .blog-content{
+         float: none;
+         width: 90%!important;
+         margin:0px auto!important;
+         margin-bottom: 10px!important;
+    }
+    .content-main,.content-image{
+         float: none;
+         width: 100%;
+    }
+    .Customer-tips {
+         float: none;
+         width: 100%;
+    }
+    .Customer-tips h1{
+         margin-top: 0px;
+     }
+    .custmer-says{
+         float: none;
+         width: 100%;
+         margin: 0 auto;
+     }
+    .footer-mail,.footer-contact{
+         float: none;
+         text-align: center;
+    }
+    .footer-menu ul li{
+       /*  width: 1%;*/
+    }
+    .footer-2{
+         text-align: center;
+         width: 100%;
+    } 
+}
+
+/*Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width:601px) and (max-width:768px){
+    .wrapper{
+        width: 90%;
+        margin:0px auto;
+    }
+    .main-phone-content {
+        margin: 0 auto;
+        width: 27%;
+    }
+    .menu ul li{
+        margin: 0 16px;
+    }
+    #banner-1:before{
+       top: 123px;
+       right: 319px;
+    }
+    .blog-post{
+        width: 500px;
+        margin: 0 auto;
+    }
+    .blog-post .blog-content {
+       display: block;
+       width: 38%;
+       margin-bottom: 22px;
+    }
+    .blog-content:nth-child(odd){
+       width: 48%;
+       float: left;
+       margin-right: 0px;
+    }
+    .blog-content:nth-child(even){
+       float: right;
+       width: 48%;
+       margin-right: 0px;
+    }
+    
+    .content-main{
+       float: left;
+       width: 100%
+    }
+    .content-image{
+       float: left;
+       width: 69%;
+       margin-left: 102px;
+    }
+    .Customer-tips {
+       float: none;
+       margin-left: 20px;
+       width: 92%;
+       padding-bottom: 10px;
+    }
+    .Customer-tips h1{
+       margin-top: 0px;
+     }
+    .custmer-says{
+       margin-left: 20px;
+       float: none;
+       width: 92%;
+     }
+     .fotter{
+       width: 100%;
+       margin: 0 auto;
+     }
+     .footer-mail{
+        margin-left: 20px;
+     }
+     .footer-contact{
+        margin-right: 35px;
+     }
+    .footer-menu ul li{
+       margin:  5px 54px;
+    }
+    .footer-copyright p{
+       margin: 0 auto;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width:768px) and (max-width:991px){
+
+}
+@media (min-width:992px) and (max-width:1024px){
+    .wrapper{
+        width: 90%;
+        margin:0px auto;
+    }
+   .main-phone-content {
+        margin: 0 auto;
+        width: 25%;
+    }
+    #banner-1:before {
+        top: 111px;
+        right: 426px;
+    }
+    .blog-post{
+        width: 900px;
+        margin: 0 auto;
+    }
+    .blog-post .blog-content{
+        display: block;
+        margin-right: 38px;
+    }
+    .blog-content:last-child{
+       margin-right: 0px;
+    }
+    .tab .content div p {
+        margin-bottom: 3px;
+    }
+    .footer-menu ul li{
+        margin-right: 32px;
+    }
+}
